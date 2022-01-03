@@ -72,5 +72,4 @@ for csi_time in csi_times:
         del mot_time_list[compare]
 
 print(label)
-output_df.to_csv('label_outputs.csv')
 # ======================================================
