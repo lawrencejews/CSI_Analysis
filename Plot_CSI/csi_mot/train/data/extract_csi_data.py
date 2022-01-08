@@ -13,7 +13,7 @@ decoder = importlib.import_module(f'decoders.{config.decoder}') # This is also a
 # ToDo: 함수로 만들기
 #def pcap_to_df(pcap_filename):
 
-pcap_filename = "class_0.pcap"
+pcap_filename = "zero4.pcap"
 
 
 def func(pkt):
@@ -62,7 +62,7 @@ if __name__ == "__main__":
 
     # Save dataframe to excel file
     try:
-        csi_df.to_csv('data/outputs.csv')
+        csi_df.to_csv('/CSI_Preprocessing/data/zero4_outputs.csv')
     except Exception as e:
         print('Fail to save data: ', e)
 
