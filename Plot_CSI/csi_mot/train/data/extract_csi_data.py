@@ -31,7 +31,7 @@ if __name__ == "__main__":
     limit = 26000000
     count = 0
     timestamps = []
-    filename = "../pcapfiles/" + pcap_filename
+    filename = pcap_filename
 
     # Read pcap file and create dataframe
     try:
@@ -62,7 +62,7 @@ if __name__ == "__main__":
 
     # Save dataframe to excel file
     try:
-        csi_df.to_csv('/CSI_Preprocessing/data/zero4_outputs.csv')
+        csi_df.to_csv('zero4_outputs.csv')
     except Exception as e:
         print('Fail to save data: ', e)
 
