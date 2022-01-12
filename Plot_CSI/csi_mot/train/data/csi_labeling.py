@@ -71,5 +71,6 @@ for csi_time in csi_times:
         label[csi_time] = mot_times[mot_time_list[compare]]
         del mot_time_list[compare]
 
-print(label)
+output_df['label'] = label.values()
+output_df.to_csv('train_data.csv')
 # ======================================================
