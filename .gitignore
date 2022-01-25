@@ -3,3 +3,7 @@ __pycache__/
 *$py.class
 .vscode
 DS_Store
+data
+output
+asset
+csi_mot
