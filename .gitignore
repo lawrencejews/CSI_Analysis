@@ -3,9 +3,5 @@ __pycache__/
 *$py.class
 .vscode
 DS_Store
-.CSI_Preprocessing
-.Plot_CSI
-csi_mot
 .save
-.Test_models
 .images
